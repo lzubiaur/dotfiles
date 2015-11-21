@@ -11,6 +11,11 @@ set clipboard=unnamed
 set wildmenu
 " Allow cursor keys in insert mode
 set esckeys
+" Change the cursor shape in diffent modes
+" http://vim.wikia.com/wiki/Change_cursor_shape_in_different_modes
+" Next line are for iTerm2 on OS X
+let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 " Allow backspace in insert mode
 set backspace=indent,eol,start
 " Optimize for fast terminal connections
