@@ -16,6 +16,8 @@ set esckeys
 " Next line are for iTerm2 on OS X
 let &t_SI = "\<Esc>]50;CursorShape=1\x7"
 let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+" Press F5 to select any open files/buffers
+nnoremap <F5> :buffers<CR>:buffer<Space>
 " Allow backspace in insert mode
 set backspace=indent,eol,start
 " Optimize for fast terminal connections
