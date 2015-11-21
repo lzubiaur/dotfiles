@@ -170,3 +170,8 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
+
+[user]
+	name = lzubiaur
+	email = zubiaur.laurent@gmail.com
+
