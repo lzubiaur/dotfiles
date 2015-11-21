@@ -49,8 +49,9 @@ set cursorline
 " Make tabs as wide as two spaces
 set tabstop=2
 " Show “invisible” characters
-" set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
-set list
+set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
+set nolist
+nmap <leader>l :set list!<CR> 
 " Highlight searches
 set hlsearch
 " Ignore case of searches
