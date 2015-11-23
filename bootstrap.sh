@@ -8,7 +8,7 @@ function doIt() {
 	rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" \
 		--exclude "README.md" --exclude "LICENSE-MIT.txt" -avh --no-perms \
 		--exclude ".osx" --exclude ".editorconfig" --exclude ".gdbinit" --exclude ".hgignore" \
-    --exclude ".hushlogin" --exclude ".inputrc" --exclude ".screenrc" --exclude "bin" --exclude "init" \
+    --exclude ".hushlogin" --exclude ".inputrc" --exclude ".screenrc" --exclude "init" --exclude "brew.sh" \
 		. ~;
 	source ~/.bash_profile;
 }
