@@ -6,9 +6,13 @@ function source_project {
 	done;
 }
 
-select PROJECT in woot none
+select PROJECT in woot cepora none
 do
    case $PROJECT in
+      cepora)
+        	source_project '.cepora'
+					break
+      ;;
       woot)
         	source_project '.woot'
 					break
