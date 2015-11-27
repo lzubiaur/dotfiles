@@ -15,6 +15,9 @@ alias h="history"
 alias j="jobs"
 
 alias setenv="source setenv.sh"
+alias picolo_wol='/Users/lzubiaur/Dev/bin/scripts/wol_picolo.sh'
+# SSH using X-Forwarding (-X or -Y can be used)
+alias picolo='ssh 192.168.1.12 -p 22'
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
