@@ -43,7 +43,7 @@ set backupskip=/tmp/*,/private/tmp/*
 
 " Respect modeline in files
 set modeline
-set modelines=4
+set modelines=2
 " Enable per-directory .vimrc files and disable unsafe commands in them
 set exrc
 set secure
@@ -56,7 +56,9 @@ set cursorline
 " Expand tab into space
 set expandtab
 " Make tabs as wide as two spaces
+set softtabstop=2
 set tabstop=2
+set shiftwidth=2
 " Show “invisible” characters
 set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
 set nolist
