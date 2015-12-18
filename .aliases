@@ -6,6 +6,8 @@ alias .....="cd ../../../.."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
+alias sleepnow='pmset sleepnow'
+
 # Shortcuts
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
@@ -18,6 +20,7 @@ alias setenv="source setenv.sh"
 alias picolo_wol='/Users/lzubiaur/Dev/bin/scripts/wol_picolo.sh'
 # SSH using X-Forwarding (-X or -Y can be used)
 alias picolo='ssh 192.168.1.12 -p 22'
+alias trunk='ssh 192.168.1.12 -p 2222'
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
