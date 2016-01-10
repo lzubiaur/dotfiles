@@ -29,4 +29,5 @@ export MANPAGER='less -X';
 
 export ATOM_PATH=/Users/lzubiaur/Dev/tools/
 
-source ~/.parrot
+export GREP_OPTIONS=--color=always
+export GREP_COLOR='1;32'
