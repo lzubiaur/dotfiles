@@ -20,7 +20,9 @@ alias setenv="source setenv.sh"
 alias picolo_wol='/Users/lzubiaur/Dev/bin/scripts/wol_picolo.sh'
 # SSH using X-Forwarding (-X or -Y can be used)
 alias picolo='ssh 192.168.1.12 -p 22'
-alias trunk='ssh 192.168.1.12 -p 2222'
+alias trunk='ssh -i ~/.ssh/remote_login 192.168.1.12 -p 2222'
+alias vegeta='ssh 192.168.1.12 -p 2223'
+alias cell='ssh 192.168.1.12 -p 2224'
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
@@ -154,3 +156,6 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
+
+# XCode tools
+alias dyldinfo='/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dyldinfo'
