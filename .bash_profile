@@ -49,3 +49,7 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 
 # Enable vi mode
 set -o vi
+
+# NVM config
+export NVM_DIR="/Users/lzubiaur/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
